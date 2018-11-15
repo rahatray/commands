@@ -6,8 +6,10 @@
 
 # download installer
 composer global require "laravel/installer=~1.1"
+
 #setting up path
 export PATH="~/.composer/vendor/bin:$PATH" 
+
 # check laravel command
 laravel 
 
@@ -28,3 +30,6 @@ laravel
 cd /var/www/html/
 # install project in blog dir.
 laravel new blog
+
+# Install specific laravel framework by composer:
+composer create-project laravel/laravel indianfood  "5.5.*" --prefer-dist
