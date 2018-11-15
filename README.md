@@ -39,22 +39,6 @@ Ubuntu Server Commands:
         sudo chmod 766 -R /var/www/html
         Defaults: drwxr-xr-x  3 root root 4096 অক্টো  22 19:55 html
         
-# Switch between PHP versions for apache web server:
-        $ sudo a2dismod php7.3
-        $ sudo a2enmod php5.6
-        $ sudo systemctl restart apache2
-        $ sudo service apache2 restart
-
-# After switching from one version to another, you can find your PHP configuration file, by running the command below.
-        $ which php
-        $ which php5.6
-        $ which php7.3
-        $ sudo update-alternatives --set php /usr/bin/php5.6
-        $ php -i | grep "Loaded Configuration File"
-
-# PHP built in webserver:
-        $ php -S localhost:8000
-
 # Composer write permission error solving:
         sudo chown -R $USER $HOME/.composer
 
