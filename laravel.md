@@ -7,7 +7,7 @@
 # download installer
 composer global require "laravel/installer=~1.1"
 
-#setting up path
+# setting up path
 export PATH="~/.composer/vendor/bin:$PATH" 
 
 # check laravel command
