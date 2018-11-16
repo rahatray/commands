@@ -21,3 +21,6 @@
 
 # Run the folloing composer command to install the package:
     $ composer require your-github-username/indianfood --dev
+
+# Safe replacement for `composer global require` especially for solving composer dependency problems
+    $ composer global require consolidation/cgr
