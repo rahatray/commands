@@ -30,3 +30,9 @@
 
 # Simulate installation and show what show you what would happen without installing the packages:
     $ composer install --dry-run
+
+# To know which other packages depend on a certain package:
+    $ composer depends rahatray/indianfood
+    
+# To show a recursive tree of why the package is depended upon:
+    $ composer depends rahatray/indianfood -tree
