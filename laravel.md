@@ -34,5 +34,14 @@ laravel new blog
 # Install specific laravel framework by composer:
 composer create-project laravel/laravel indianfood  "5.5.*" --prefer-dist
 
-# Laravel  application encryption key genaration:
+# Copy .env.example to .env:
+
+    $ cp -a .env.example .env
+
+# Generate a key:
+
     $ php artisan key:generate
+
+# Only then run:
+
+    $ php artisan serve
