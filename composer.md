@@ -2,7 +2,10 @@
     $ composer search indianfood
 
 # Install a specific version of a package via composer:
-    $ composer require indianfood/indianfood:v3.0.4-beta.5
+    $ composer require rahatray/indianfood:v3.0.4-beta.5
+    
+# Install a specific version of a package via composer without updating the "composer.lock" file:
+    $ composer require rahatray/indianfood=v3.0.4-beta.5 --no-update
     
 # these conflict with your requirements or minimum-stabilitym arose, add these two lines at the end of "composer.json" file, before the closing brace, don't forget to add a "," before putting these:
   "minimum-stability": "dev",
