@@ -13,13 +13,12 @@
     $ composer clearcache
 
 # Add own github repository in "composer.json":
-    //composer.json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/rahatray/indianfood-api"
-    }
-]
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rahatray/indianfood"
+        }
+    ]
 
 # Run the folloing composer command to install the package:
-    $ composer require your-github-username/indianfood-api --dev
+    $ composer require your-github-username/indianfood --dev
