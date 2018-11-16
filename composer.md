@@ -27,3 +27,6 @@
 
 # Safe replacement for `composer global require` especially for solving composer dependency problems
     $ composer global require consolidation/cgr
+
+# Simulate installation and show what show you what would happen without installing the packages:
+    $ composer install --dry-run
