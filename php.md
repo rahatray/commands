@@ -19,3 +19,6 @@
 
 # PHP built in webserver:
         $ php -S localhost:8000
+        
+$ To serve public folder of a framework/webapp:        
+        $ php -S 0.0.0.0:8080 -t public
