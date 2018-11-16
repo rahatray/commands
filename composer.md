@@ -8,3 +8,6 @@
     ,
   "minimum-stability": "dev",
   "prefer-stable": true
+
+# To clear the composer cache just run the following:
+    $ composer clearcache
