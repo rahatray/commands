@@ -45,3 +45,7 @@ composer create-project laravel/laravel indianfood  "5.5.*" --prefer-dist
 # Only then run:
 
     $ php artisan serve
+# Run Laravel autoloader for vendor packages:
+    $ composer dumpautoload
+# For third party package discover run:
+    $ php artisan package:discover
