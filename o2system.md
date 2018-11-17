@@ -9,3 +9,6 @@
 
 # Local Development Server for o2system which will start a development server at http://localhost:8000
   $ php o2system serve
+  
+# PHP's built-in development server to serve your application with custom hostname and custom port number:
+  $ php o2system serve --host=example.com --port=80
