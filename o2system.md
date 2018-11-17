@@ -6,3 +6,6 @@
 
 # To review the avaliable O2System Console Commands, run: 
   $ php o2system make --help
+
+# Local Development Server for o2system which will start a development server at http://localhost:8000
+  $ php o2system serve
