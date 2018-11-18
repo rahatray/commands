@@ -17,6 +17,14 @@
         $ sudo update-alternatives --set php /usr/bin/php5.6
         $ php -i | grep "Loaded Configuration File"
 
+# To create a phpinfo file, open a plain text file, add the following lines, and save as "phpinfo.php":
+    <?php
+
+    // Show all information, defaults to INFO_ALL
+    phpinfo();
+
+    ?>
+
 # PHP built in webserver:
         $ php -S localhost:8000
         
